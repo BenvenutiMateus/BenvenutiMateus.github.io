@@ -8,21 +8,28 @@
   <title>Contato | Mateus Jardim Benvenuti</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
+  <script src="search.js" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
-  <div class="site">
-    <header class="site-header">
-      <a class="site-name" href="index.html">Mateus Jardim Benvenuti</a>
-      <p class="affiliation">Estatística e Ciência de Dados · UFSCar</p>
+  <header class="top-bar">
       <nav aria-label="Navegação principal">
         <a href="index.html">Início</a>
         <a href="pesquisa.html">Pesquisa</a>
         <a href="projetos.html">Projetos</a>
+        <a href="notas.html">Notas</a>
+        <a href="apresentacoes.html">Apresentações</a>
         <a href="trajetoria.html">Trajetória</a>
         <a href="contato.html" aria-current="page">Contato</a>
-        <button class="theme-toggle" type="button" aria-pressed="false" hidden>Modo escuro</button>
+        <button class="search-toggle" type="button" aria-haspopup="dialog" aria-controls="site-search" aria-keyshortcuts="Control+k Meta+k" aria-label="Buscar no site (Ctrl K ou Command K)" title="Buscar no site (Ctrl K ou Command K)" hidden><kbd>Ctrl K</kbd> <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Modo escuro" title="Alternar tema claro ou escuro" hidden><svg viewBox="0 0 24 24" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
       </nav>
+  </header>
+  <div class="site">
+    <header class="site-header">
+      <a class="site-name" href="index.html">Mateus Jardim Benvenuti</a>
+      <p class="affiliation">Estatística e Ciência de Dados · UFSCar</p>
+
     </header>
     <main id="conteudo">
     <article class="text-page">
