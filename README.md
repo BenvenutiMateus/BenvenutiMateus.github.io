@@ -1,39 +1,28 @@
-# Mateus Jardim Benvenuti — Personal Website
+# Mateus Jardim Benvenuti
 
-This repository contains the source code for my personal website and academic portfolio.
+Site pessoal e acadêmico em HTML, CSS e JavaScript, publicado no [GitHub Pages](https://benvenutimateus.github.io).
 
-🌐 **Website:** [benvenutimateus.github.io](https://benvenutimateus.github.io)
+## Páginas
 
-## About Me
+- `index.html`: apresentação e foto de perfil.
+- `pesquisa.html`: projeto de iniciação científica.
+- `trajetoria.html`: graduação, PET e iniciação científica.
+- `contato.html`: GitHub e vínculo acadêmico.
 
-I'm an undergraduate student in **Statistics and Data Science at the Federal University of São Carlos (UFSCar)**, interested in statistics, machine learning, data science, graph learning and scientific research.
+As páginas compartilham `style.css`. O arquivo `script.js` atualiza o ano do rodapé; o conteúdo e a navegação funcionam sem JavaScript.
 
-Currently, I am also:
+## Visualizar localmente
 
-* 📊 Member of **PET Estatística UFSCar**
-* 🔬 **CNPq Undergraduate Research Fellow**
-* 🧬 Researching **genotype-phenotype graph learning**
-* 🌲 Working with **Random Forests, variable importance and stability selection**
-* 🐍 Developing projects mainly with **Python and data analysis**
+Abra `index.html` no navegador ou execute, na pasta do projeto:
 
-## Research
+```sh
+python3 -m http.server 8000
+```
 
-My undergraduate research focuses on:
+Depois, acesse http://localhost:8000.
 
-**Graph Learning for Genotype-Phenotype Relationships using Random Forests and Stability Selection**
+## Atualizar
 
-The project investigates statistical and machine learning approaches for identifying relationships between variables and representing these dependencies through graphical models.
+Edite o HTML da página correspondente. Ao alterar a navegação ou o cabeçalho, replique a mudança nas quatro páginas.
 
-Main topics include:
-
-* Random Forests
-* Variable Importance
-* Stability Selection
-* Graph Learning
-* Statistical Modeling
-* High-Dimensional Data
-* Genotype-Phenotype Relationships
-
-## Website
-
-The g
+A foto pública do GitHub foi salva em `assets/perfil-github.jpg`. Para trocar a imagem, substitua esse arquivo. Ela não depende de uma requisição ao GitHub para aparecer e não é atualizada automaticamente.
