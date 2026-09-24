@@ -1,18 +1,22 @@
 * { box-sizing: border-box; }
-:root { color-scheme: light; }
-body { margin: 0; color: #303030; background: #fff; font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.7; }
-a { color: #24577c; text-underline-offset: 3px; }
-a:hover { color: #143751; }
-a:focus-visible { outline: 2px solid #24577c; outline-offset: 5px; }
+:root { color-scheme: light; --background: #fff; --text: #303030; --heading: #252525; --muted: #666; --link: #24577c; --hover: #143751; --border: #ddd; }
+:root[data-theme="dark"] { color-scheme: dark; --background: #191c20; --text: #dddfe3; --heading: #f0f1f3; --muted: #a9afb8; --link: #91bee2; --hover: #c5e2fa; --border: #3c424b; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) { color-scheme: dark; --background: #191c20; --text: #dddfe3; --heading: #f0f1f3; --muted: #a9afb8; --link: #91bee2; --hover: #c5e2fa; --border: #3c424b; }
+}
+body { margin: 0; color: var(--text); background: var(--background); font-family: Georgia, "Times New Roman", serif; font-size: 17px; line-height: 1.7; }
+a { color: var(--link); text-underline-offset: 3px; }
+a:hover { color: var(--hover); }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 5px; }
 .site { width: min(960px, calc(100% - 64px)); margin: 0 auto; }
 .site-header { padding-top: 48px; }
-.site-name { color: #252525; font-size: clamp(1.65rem, 4vw, 2.2rem); line-height: 1.25; text-decoration: none; }
-.affiliation { margin: 8px 0 24px; color: #666; font-size: .95rem; }
-nav { display: flex; flex-wrap: wrap; gap: 8px 30px; border-bottom: 1px solid #ddd; font-family: Arial, sans-serif; font-size: .9rem; }
+.site-name { color: var(--heading); font-size: clamp(1.65rem, 4vw, 2.2rem); line-height: 1.25; text-decoration: none; }
+.affiliation { margin: 8px 0 24px; color: var(--muted); font-size: .95rem; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 30px; border-bottom: 1px solid var(--border); font-family: Arial, sans-serif; font-size: .9rem; }
 nav a { display: inline-block; padding: 8px 0 11px; text-decoration: none; border-bottom: 2px solid transparent; }
-nav a[aria-current="page"] { color: #252525; border-bottom-color: #24577c; }
+nav a[aria-current="page"] { color: var(--heading); border-bottom-color: var(--link); }
 main { padding: 40px 0 60px; min-height: 460px; }
-h1, h2 { color: #252525; font-weight: normal; line-height: 1.35; }
+h1, h2 { color: var(--heading); font-weight: normal; line-height: 1.35; }
 h1 { font-size: 1.75rem; margin: 0 0 22px; }
 h2 { font-size: 1.3rem; margin: 30px 0 12px; }
 p { margin: 0 0 18px; }
@@ -20,11 +24,11 @@ p { margin: 0 0 18px; }
 .profile-photo { display: block; width: 240px; height: 240px; max-width: 100%; object-fit: cover; border-radius: 3px; }
 .text-page { max-width: 740px; }
 .text-page > h2:first-of-type { margin-top: 0; }
-.detail { color: #666; font-size: .95rem; }
+.detail { color: var(--muted); font-size: .95rem; }
 ul { padding-left: 24px; }
 li { margin-bottom: 6px; }
-footer { padding: 20px 0 28px; border-top: 1px solid #ddd; color: #666; font-size: .8rem; font-family: Arial, sans-serif; }
-.skip-link { position: absolute; left: 16px; top: -100px; background: white; padding: 8px 12px; }
+footer { padding: 20px 0 28px; border-top: 1px solid var(--border); color: var(--muted); font-size: .8rem; font-family: Arial, sans-serif; }
+.skip-link { position: absolute; left: 16px; top: -100px; background: var(--background); padding: 8px 12px; }
 .skip-link:focus { top: 8px; }
 @media (max-width: 640px) {
   .site { width: calc(100% - 36px); }
@@ -34,3 +38,9 @@ footer { padding: 20px 0 28px; border-top: 1px solid #ddd; color: #666; font-siz
   .profile { grid-template-columns: 1fr; gap: 28px; }
   .profile-photo { width: 200px; height: 200px; }
 }
+
+.theme-toggle { margin: 0 0 5px auto; align-self: center; padding: 6px 10px; border: 1px solid var(--border); border-radius: 4px; color: var(--text); background: var(--background); font: inherit; cursor: pointer; }
+.theme-toggle:hover { border-color: var(--link); }
+.theme-toggle:focus-visible { outline: 2px solid var(--link); outline-offset: 3px; }
+.project { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--border); }
+.project h2 { margin-top: 0; }

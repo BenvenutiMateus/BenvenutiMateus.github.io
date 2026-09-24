@@ -1,28 +1,44 @@
 # Mateus Jardim Benvenuti
 
-Site pessoal e acadêmico em HTML, CSS e JavaScript, publicado no [GitHub Pages](https://benvenutimateus.github.io).
+Código-fonte do meu site pessoal e acadêmico, com informações sobre minha formação em Estatística e Ciência de Dados na Universidade Federal de São Carlos (UFSCar), pesquisa e projetos.
 
-## Páginas
+**Site:** [benvenutimateus.github.io](https://benvenutimateus.github.io)
 
-- `index.html`: apresentação e foto de perfil.
-- `pesquisa.html`: projeto de iniciação científica.
-- `trajetoria.html`: graduação, PET e iniciação científica.
-- `contato.html`: GitHub e vínculo acadêmico.
+## Sobre o projeto
 
-As páginas compartilham `style.css`. O arquivo `script.js` atualiza o ano do rodapé; o conteúdo e a navegação funcionam sem JavaScript.
+O site é desenvolvido em HTML, CSS e JavaScript, sem frameworks ou dependências de compilação. As páginas são estáticas e a hospedagem é feita pelo GitHub Pages.
 
-## Visualizar localmente
+A interface possui layout responsivo, navegação por teclado e suporte aos temas claro e escuro. A preferência de tema é armazenada no navegador; na ausência de uma escolha, o site acompanha a configuração do sistema. O conteúdo e a navegação permanecem disponíveis sem JavaScript.
 
-Abra `index.html` no navegador ou execute, na pasta do projeto:
+## Estrutura
+
+| Arquivo ou diretório | Conteúdo |
+| --- | --- |
+| `index.html` | Apresentação pessoal e foto de perfil |
+| `pesquisa.html` | Projeto de iniciação científica |
+| `projetos.html` | Seleção de projetos |
+| `trajetoria.html` | Formação e atividades acadêmicas |
+| `contato.html` | Links de contato e vínculo acadêmico |
+| `style.css` | Estilos compartilhados, responsividade e temas |
+| `script.js` | Seleção de tema e atualização do ano no rodapé |
+| `assets/` | Imagens utilizadas no site |
+
+## Execução local
+
+Para visualizar o site, abra `index.html` no navegador. Como alternativa, com Python 3 instalado, execute na raiz do repositório:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Depois, acesse http://localhost:8000.
+Acesse [localhost:8000](http://localhost:8000). Para encerrar o servidor, pressione `Ctrl+C` no terminal.
 
-## Atualizar
+## Manutenção
 
-Edite o HTML da página correspondente. Ao alterar a navegação ou o cabeçalho, replique a mudança nas quatro páginas.
+Edite o conteúdo diretamente no arquivo HTML da página correspondente. Alterações no cabeçalho, na navegação ou no rodapé devem ser aplicadas a todas as páginas para manter a consistência do site.
 
-A foto pública do GitHub foi salva em `assets/perfil-github.jpg`. Para trocar a imagem, substitua esse arquivo. Ela não depende de uma requisição ao GitHub para aparecer e não é atualizada automaticamente.
+Os estilos ficam centralizados em `style.css`, e os comportamentos compartilhados em `script.js`. Armazene novas imagens em `assets/` e inclua um texto alternativo descritivo no atributo `alt`.
+
+Para adicionar um projeto, inclua uma seção em `projetos.html` com título, descrição e links para o repositório ou outros materiais relevantes. Atualize o texto de apresentação da página conforme os projetos forem publicados.
+
+Antes de publicar alterações, confira a navegação entre as páginas, os links, a exibição em telas menores e os dois temas.
