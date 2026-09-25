@@ -1,0 +1,414 @@
+{
+  "profile": {
+    "name": "Mateus Jardim Benvenuti",
+    "email": "mateusbenvenuti@estudante.ufscar.br",
+    "github": "https://github.com/BenvenutiMateus",
+    "linkedin": "https://www.linkedin.com/in/mateusbenvenuti/",
+    "instagram": "https://www.instagram.com/mateusbenvenuti/",
+    "lattes": "",
+    "orcid": "",
+    "cv": "assets/cv.pdf"
+  },
+  "projects": [
+    {
+      "id": "promotions",
+      "repo": "promocoes",
+      "image": "promotions.svg",
+      "tech": [
+        "Python",
+        "Pandas",
+        "Streamlit",
+        "OpenPyXL"
+      ],
+      "url": "https://promoswebvend.streamlit.app/",
+      "en": {
+        "title": "Marketplace Promotions",
+        "category": "Data automation",
+        "summary": "Match product spreadsheets to price lists and export promotion-ready prices for each marketplace.",
+        "details": [
+          "Import Excel or CSV files and identify SKU / ID columns.",
+          "Inspect matched and unmatched products before exporting.",
+          "Handle invalid formula values and export only identifiers and final prices."
+        ]
+      },
+      "pt": {
+        "title": "Promoções para marketplaces",
+        "category": "Automação de dados",
+        "summary": "Cruza planilhas de produtos com bases de preços e exporta os valores das promoções por marketplace.",
+        "details": [
+          "Importa Excel ou CSV e identifica colunas de SKU / ID.",
+          "Permite conferir produtos encontrados e não encontrados antes de exportar.",
+          "Trata valores inválidos de fórmulas e exporta apenas identificadores e preços finais."
+        ]
+      }
+    },
+    {
+      "id": "graph-learning",
+      "repo": "Genetica",
+      "image": "graph-learning.svg",
+      "tech": [
+        "Python",
+        "scikit-learn",
+        "NumPy",
+        "NetworkX"
+      ],
+      "url": "research.html",
+      "en": {
+        "title": "Random Forests & Graph Learning",
+        "category": "Undergraduate research · In progress",
+        "summary": "Research code for genomic data analysis, variable importance, and stability-based graph learning.",
+        "details": [
+          "Integrate genetic markers and phenotypic variables for statistical analysis.",
+          "Study Random Forest importance through repeated sampling and stability assessment.",
+          "Build graph representations of dependencies; raw genomic data are not included in the repository."
+        ]
+      },
+      "pt": {
+        "title": "Florestas Aleatórias e grafos",
+        "category": "Iniciação científica · Em andamento",
+        "summary": "Código de pesquisa para análise de dados genômicos, importância de variáveis e aprendizado de grafos com seleção de estabilidade.",
+        "details": [
+          "Integra marcadores genéticos e variáveis fenotípicas para análise estatística.",
+          "Estuda importância de variáveis por Florestas Aleatórias, reamostragem e avaliação de estabilidade.",
+          "Constrói representações de dependências em grafos; os dados genômicos brutos não estão no repositório."
+        ]
+      }
+    },
+    {
+      "id": "marketplace-analysis",
+      "repo": "analises_ml",
+      "image": "marketplace-analysis.svg",
+      "tech": [
+        "Python",
+        "Streamlit",
+        "BeautifulSoup",
+        "ReportLab"
+      ],
+      "url": "https://github.com/BenvenutiMateus/analises_ml#readme",
+      "en": {
+        "title": "Mercado Livre Product Analysis",
+        "category": "Applied data analysis",
+        "summary": "Collect listing information, compare products, and estimate net proceeds using the application’s fee assumptions.",
+        "details": [
+          "Extract product titles and prices from Mercado Livre listings.",
+          "Combine product information with user-supplied tax and commission rates.",
+          "Organize multiple products and export an analysis report as a PDF."
+        ]
+      },
+      "pt": {
+        "title": "Análise de produtos do Mercado Livre",
+        "category": "Análise aplicada de dados",
+        "summary": "Reúne informações de anúncios, compara produtos e estima valores líquidos com as premissas de tarifas da aplicação.",
+        "details": [
+          "Extrai títulos e preços de anúncios do Mercado Livre.",
+          "Combina os dados dos produtos com alíquotas e comissões informadas pelo usuário.",
+          "Organiza vários produtos e exporta um relatório da análise em PDF."
+        ]
+      }
+    }
+  ],
+  "en": {
+    "nav": {
+      "index": "Home",
+      "research": "Research",
+      "projects": "Projects",
+      "notes": "Notes",
+      "presentations": "Presentations",
+      "background": "Background",
+      "contact": "Contact"
+    },
+    "affiliation": "Statistics and Data Science · UFSCar",
+    "skip": "Skip to content",
+    "navigation": "Main navigation",
+    "search": "Search this site",
+    "dark": "Dark mode",
+    "theme": "Toggle light or dark theme",
+    "language": "Language",
+    "portrait": "Portrait of Mateus Jardim Benvenuti",
+    "download": "Download CV",
+    "view_cv": "View CV (PDF)",
+    "cv_note": "CV in English · PDF",
+    "view_research": "View my research",
+    "view_project": "View project",
+    "details": "Project details",
+    "featured": "Featured work",
+    "all_projects": "All projects",
+    "preview": "Workflow illustration",
+    "tools": "Tools",
+    "research_title": "Genotype–Phenotype Graph Learning Using Random Forests and Stability Selection",
+    "home": {
+      "title": "About me",
+      "role": "Undergraduate Researcher · CNPq · PET Statistics",
+      "paragraphs": [
+        "I am a Statistics and Data Science undergraduate at the Federal University of São Carlos (UFSCar), with an expected graduation date of December 2028.",
+        "I am a member of PET Statistics and hold a CNPq undergraduate research scholarship. My research on genotype–phenotype graph learning is supervised by <a href=\"https://thiagorr162.github.io/\">Prof. Thiago Rodrigo Ramos</a>.",
+        "My interests include statistical modeling, machine learning, and graph learning. I work mainly with Python to build data analysis tools and research workflows."
+      ]
+    },
+    "research": {
+      "current": "Current research",
+      "status": "2026–present · CNPq undergraduate research scholarship",
+      "supervisor": "Supervisor",
+      "stages": [
+        [
+          "Problem",
+          "How can we identify stable relationships between genotypic and phenotypic variables when the number of predictors is large? The project investigates statistical dependencies and how to represent them as graphs."
+        ],
+        [
+          "Methodology",
+          "Random Forests estimate variable importance. Repeated sampling and stability selection help assess which relationships persist across runs, supporting the construction of graph representations."
+        ],
+        [
+          "Current work",
+          "Developing data-processing and analysis workflows in Python, studying variable importance and stability, and building graph representations with NetworkX."
+        ],
+        [
+          "Outputs",
+          "The public research repository contains analysis code and documentation. Raw genomic data are not distributed with it."
+        ]
+      ],
+      "topics": [
+        "Random Forests",
+        "Variable importance",
+        "Stability selection",
+        "High-dimensional statistics",
+        "Graphical models"
+      ],
+      "repository": "Research code on GitHub"
+    },
+    "background": {
+      "title": "Education & experience",
+      "timeline": [
+        [
+          "2026–present",
+          "CNPq Undergraduate Research Fellow",
+          "Federal University of São Carlos (UFSCar)",
+          "Genotype–phenotype graph learning with Random Forests, variable importance, and stability selection."
+        ],
+        [
+          "2026–present",
+          "PET Statistics · External Relations",
+          "Federal University of São Carlos (UFSCar)",
+          "Teaching, research, and outreach activities, with contributions to external communication and partnerships."
+        ],
+        [
+          "2025–Dec. 2028 (expected)",
+          "B.Sc. in Statistics and Data Science",
+          "Federal University of São Carlos (UFSCar)",
+          "Undergraduate studies in São Carlos, Brazil."
+        ],
+        [
+          "2024–2025",
+          "Science and Technology studies",
+          "Federal University of ABC (UFABC)",
+          "Undergraduate coursework; degree not completed."
+        ]
+      ],
+      "skills": "Skills",
+      "programming": "Programming & tools",
+      "statistics": "Statistics & methods",
+      "skill_tools": [
+        "Python",
+        "SQL",
+        "R (basic)",
+        "Pandas",
+        "NumPy",
+        "scikit-learn",
+        "Matplotlib",
+        "NetworkX",
+        "Streamlit",
+        "Git",
+        "LaTeX"
+      ],
+      "skill_stats": [
+        "Statistical modeling",
+        "Machine learning",
+        "Exploratory data analysis",
+        "Random Forests",
+        "Variable importance",
+        "Graphical models"
+      ],
+      "languages": "Languages",
+      "language_text": "Portuguese: native · English: advanced"
+    },
+    "contact": {
+      "intro": "For research, projects, or academic opportunities, you can reach me by email or through the profiles below.",
+      "email": "Email",
+      "location": "São Carlos, São Paulo, Brazil",
+      "documents": "Academic CV"
+    },
+    "notes": {
+      "title": "Statistical Programming",
+      "description": "Lecture notes for the Statistical Programming course taught by <a href=\"https://thiagorr162.github.io/\">Prof. Thiago Rodrigo Ramos</a>.",
+      "link": "View notes on GitHub",
+      "language": "Materials in Portuguese"
+    },
+    "presentations": {
+      "title": "Introduction to pandas",
+      "description": "An introduction to pandas, NumPy, and Matplotlib, developed and taught by the PET Statistics group at UFSCar.",
+      "link": "View workshop materials",
+      "language": "Materials in Portuguese"
+    },
+    "projects_intro": "Selected work in data automation, applied analysis, and statistical research.",
+    "search_ui": {
+      "close": "Close",
+      "label": "Page or topic",
+      "placeholder": "e.g. graphs, projects, PET",
+      "empty": "No results. Try another term.",
+      "one": "result",
+      "many": "results"
+    }
+  },
+  "pt": {
+    "nav": {
+      "index": "Início",
+      "research": "Pesquisa",
+      "projects": "Projetos",
+      "notes": "Notas",
+      "presentations": "Apresentações",
+      "background": "Trajetória",
+      "contact": "Contato"
+    },
+    "affiliation": "Estatística e Ciência de Dados · UFSCar",
+    "skip": "Ir para o conteúdo",
+    "navigation": "Navegação principal",
+    "search": "Buscar no site",
+    "dark": "Modo escuro",
+    "theme": "Alternar tema claro ou escuro",
+    "language": "Idioma",
+    "portrait": "Foto de Mateus Jardim Benvenuti",
+    "download": "Baixar CV",
+    "view_cv": "Ver CV (PDF)",
+    "cv_note": "CV em inglês · PDF",
+    "view_research": "Conheça minha pesquisa",
+    "view_project": "Ver projeto",
+    "details": "Detalhes do projeto",
+    "featured": "Trabalhos em destaque",
+    "all_projects": "Todos os projetos",
+    "preview": "Ilustração do fluxo de trabalho",
+    "tools": "Ferramentas",
+    "research_title": "Aprendizado de grafos genótipo-fenótipo via Floresta Aleatória e seleção de estabilidade",
+    "home": {
+      "title": "Sobre mim",
+      "role": "Iniciação científica · CNPq · PET Estatística",
+      "paragraphs": [
+        "Sou estudante de Estatística e Ciência de Dados na Universidade Federal de São Carlos (UFSCar), com previsão de formatura em dezembro de 2028.",
+        "Faço parte do PET Estatística e desenvolvo uma iniciação científica com bolsa CNPq. Minha pesquisa em aprendizado de grafos genótipo-fenótipo é orientada pelo <a href=\"https://thiagorr162.github.io/\">Prof. Thiago Rodrigo Ramos</a>.",
+        "Tenho interesse em modelagem estatística, aprendizado de máquina e aprendizado de grafos. Trabalho principalmente com Python no desenvolvimento de ferramentas de análise de dados e rotinas de pesquisa."
+      ]
+    },
+    "research": {
+      "current": "Pesquisa atual",
+      "status": "2026–atual · Iniciação científica com bolsa CNPq",
+      "supervisor": "Orientador",
+      "stages": [
+        [
+          "Problema",
+          "Como identificar relações estáveis entre variáveis genotípicas e fenotípicas quando há um grande número de preditores? O projeto investiga dependências estatísticas e sua representação por grafos."
+        ],
+        [
+          "Metodologia",
+          "Florestas Aleatórias estimam a importância das variáveis. Reamostragem e seleção de estabilidade ajudam a avaliar quais relações persistem entre execuções, apoiando a construção de grafos."
+        ],
+        [
+          "Trabalho atual",
+          "Desenvolvimento de rotinas de processamento e análise em Python, estudo da importância de variáveis e da estabilidade e construção de representações em grafos com NetworkX."
+        ],
+        [
+          "Materiais disponíveis",
+          "O repositório público da pesquisa reúne código de análise e documentação. Os dados genômicos brutos não são distribuídos com ele."
+        ]
+      ],
+      "topics": [
+        "Florestas Aleatórias",
+        "Importância de variáveis",
+        "Seleção de estabilidade",
+        "Estatística em alta dimensão",
+        "Modelos gráficos"
+      ],
+      "repository": "Código da pesquisa no GitHub"
+    },
+    "background": {
+      "title": "Formação e experiência",
+      "timeline": [
+        [
+          "2026–atual",
+          "Iniciação científica · Bolsista CNPq",
+          "Universidade Federal de São Carlos (UFSCar)",
+          "Aprendizado de grafos genótipo-fenótipo com Florestas Aleatórias, importância de variáveis e seleção de estabilidade."
+        ],
+        [
+          "2026–atual",
+          "PET Estatística · Relações Externas",
+          "Universidade Federal de São Carlos (UFSCar)",
+          "Atividades de ensino, pesquisa e extensão, com participação na comunicação externa e em parcerias."
+        ],
+        [
+          "2025–dez. 2028 (previsão)",
+          "Bacharelado em Estatística e Ciência de Dados",
+          "Universidade Federal de São Carlos (UFSCar)",
+          "Graduação em São Carlos, Brasil."
+        ],
+        [
+          "2024–2025",
+          "Estudos em Ciência e Tecnologia",
+          "Universidade Federal do ABC (UFABC)",
+          "Graduação não concluída."
+        ]
+      ],
+      "skills": "Competências",
+      "programming": "Programação e ferramentas",
+      "statistics": "Estatística e métodos",
+      "skill_tools": [
+        "Python",
+        "SQL",
+        "R (básico)",
+        "Pandas",
+        "NumPy",
+        "scikit-learn",
+        "Matplotlib",
+        "NetworkX",
+        "Streamlit",
+        "Git",
+        "LaTeX"
+      ],
+      "skill_stats": [
+        "Modelagem estatística",
+        "Aprendizado de máquina",
+        "Análise exploratória de dados",
+        "Florestas Aleatórias",
+        "Importância de variáveis",
+        "Modelos gráficos"
+      ],
+      "languages": "Idiomas",
+      "language_text": "Português: nativo · Inglês: avançado"
+    },
+    "contact": {
+      "intro": "Para conversar sobre pesquisa, projetos ou oportunidades acadêmicas, entre em contato por e-mail ou pelos perfis abaixo.",
+      "email": "E-mail",
+      "location": "São Carlos, São Paulo, Brasil",
+      "documents": "Currículo acadêmico"
+    },
+    "notes": {
+      "title": "Programação Estatística",
+      "description": "Notas de aula da disciplina de Programação Estatística ministrada pelo <a href=\"https://thiagorr162.github.io/\">Prof. Thiago Rodrigo Ramos</a>.",
+      "link": "Ver notas no GitHub",
+      "language": "Material em português"
+    },
+    "presentations": {
+      "title": "Introdução ao pandas",
+      "description": "Introdução às bibliotecas pandas, NumPy e Matplotlib, desenvolvida e ministrada pelo PET Estatística da UFSCar.",
+      "link": "Ver material do minicurso",
+      "language": "Material em português"
+    },
+    "projects_intro": "Trabalhos selecionados em automação de dados, análise aplicada e pesquisa estatística.",
+    "search_ui": {
+      "close": "Fechar",
+      "label": "Página ou assunto",
+      "placeholder": "Ex.: grafos, projetos, PET",
+      "empty": "Nenhum resultado. Tente outro termo.",
+      "one": "resultado",
+      "many": "resultados"
+    }
+  }
+}

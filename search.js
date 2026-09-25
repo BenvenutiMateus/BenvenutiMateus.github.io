@@ -1,17 +1,8 @@
 (() => {
-  // Update this index when publishing pages or materials.
-  const entries = [
-    { title: 'About me', url: 'index.html', description: 'Mateus Jardim Benvenuti · Statistics and Data Science · UFSCar' },
-    { title: 'Research', url: 'research.html', description: 'CNPq undergraduate research · Genotype–phenotype graphs, Random Forests and stability selection · Thiago Rodrigo Ramos' },
-    { title: 'Projects', url: 'projects.html', description: 'Applications and code' },
-    { title: 'Marketplace Promotions', url: 'projects.html#promotions-title', description: 'Python, Streamlit, Pandas, OpenPyXL · Excel and CSV spreadsheets, products, SKU and prices' },
-    { title: 'Study Notes', url: 'notes.html', description: 'Notes and study materials' },
-    { title: 'Statistical Programming', url: 'notes.html#statistical-programming-title', description: 'Lecture notes · Course taught by Thiago Rodrigo Ramos' },
-    { title: 'Presentations', url: 'presentations.html', description: 'Academic presentations' },
-    { title: 'Introduction to pandas', url: 'presentations.html#pandas-title', description: 'pandas, NumPy and Matplotlib · PET Statistics at UFSCar' },
-    { title: 'Background', url: 'background.html', description: 'Undergraduate studies, PET Statistics and undergraduate research' },
-    { title: 'Contact', url: 'contact.html', description: 'Email and academic contact information' },
-  ];
+  const language = document.documentElement.lang.startsWith('pt') ? 'pt' : 'en';
+  const data = window.siteSearch?.[language];
+  if (!data) return;
+  const { entries, ui } = data;
   const trigger = document.querySelector('.search-toggle');
   if (!trigger || typeof HTMLDialogElement === 'undefined') return;
 
@@ -21,11 +12,11 @@
   dialog.setAttribute('aria-labelledby', 'search-title');
   dialog.innerHTML = `
     <div class="search-heading">
-      <h2 id="search-title">Search this site</h2>
-      <button type="button">Close</button>
+      <h2 id="search-title">${ui.title}</h2>
+      <button type="button">${ui.close}</button>
     </div>
-    <label for="search-input">Page or topic</label>
-    <input id="search-input" type="search" autocomplete="off" placeholder="e.g. graphs, projects, PET">
+    <label for="search-input">${ui.label}</label>
+    <input id="search-input" type="search" autocomplete="off" placeholder="${ui.placeholder}">
     <p class="search-status" role="status" aria-live="polite"></p>
     <ul class="search-results"></ul>`;
   document.body.append(dialog);
@@ -50,7 +41,7 @@
       item.append(link);
       results.append(item);
     }
-    status.textContent = matches.length ? `${matches.length} result${matches.length === 1 ? '' : 's'}.` : 'No results. Try another term.';
+    status.textContent = matches.length ? `${matches.length} ${matches.length === 1 ? ui.one : ui.many}.` : ui.empty;
   }
   function open() {
     if (dialog.open) return;
@@ -70,6 +61,11 @@
     }
   });
   document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && dialog.open) {
+      event.preventDefault();
+      dialog.close();
+      return;
+    }
     if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
       event.preventDefault();
       open();
