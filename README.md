@@ -1,49 +1,49 @@
 # Mateus Jardim Benvenuti
 
-Código-fonte do meu site pessoal e acadêmico, com informações sobre minha formação em Estatística e Ciência de Dados na Universidade Federal de São Carlos (UFSCar), pesquisa e projetos.
+Source code for my personal academic website, featuring my background in Statistics and Data Science at the Federal University of São Carlos (UFSCar), research, and projects.
 
-**Site:** [benvenutimateus.github.io](https://benvenutimateus.github.io)
+**Website:** [benvenutimateus.github.io](https://benvenutimateus.github.io)
 
-## Sobre o projeto
+## About the project
 
-O site é desenvolvido em HTML, CSS e JavaScript, sem frameworks ou dependências de compilação. As páginas são estáticas e a hospedagem é feita pelo GitHub Pages.
+The website is built with HTML, CSS, and JavaScript, without frameworks or a build step. It consists of static pages hosted on GitHub Pages.
 
-A interface possui layout responsivo, navegação por teclado e suporte aos temas claro e escuro. A preferência de tema é armazenada no navegador; na ausência de uma escolha, o site acompanha a configuração do sistema. A busca local está disponível pelo botão Buscar ou pelo atalho `Ctrl+K` (`Cmd+K` no macOS). O conteúdo e a navegação permanecem disponíveis sem JavaScript.
+The interface includes a responsive layout, keyboard navigation, and light and dark themes. The browser saves the selected theme; when no preference is saved, the site follows the system setting. Local search is available through the magnifying glass button or the `Ctrl+K` shortcut (`Cmd+K` on macOS). Content and navigation remain accessible without JavaScript.
 
-## Estrutura
+## Structure
 
-| Arquivo ou diretório | Conteúdo |
+| File or directory | Purpose |
 | --- | --- |
-| `index.html` | Apresentação pessoal e foto de perfil |
-| `pesquisa.html` | Projeto de iniciação científica |
-| `projetos.html` | Seleção de projetos |
-| `notas.html` | Notas e materiais de estudo |
-| `apresentacoes.html` | Apresentações acadêmicas |
-| `trajetoria.html` | Formação e atividades acadêmicas |
-| `contato.html` | Links de contato e vínculo acadêmico |
-| `style.css` | Estilos compartilhados, responsividade e temas |
-| `script.js` | Seleção de tema e atualização do ano no rodapé |
-| `search.js` | Busca local e índice de páginas e assuntos |
-| `assets/` | Imagens utilizadas no site |
+| `index.html` | Personal introduction and profile photo |
+| `research.html` | Undergraduate research project |
+| `projects.html` | Selected projects |
+| `notes.html` | Notes and study materials |
+| `presentations.html` | Academic presentations |
+| `background.html` | Education and academic activities |
+| `contact.html` | Contact information |
+| `style.css` | Shared styles, responsive layout, and themes |
+| `script.js` | Theme selection and footer year updates |
+| `search.js` | Local search and index of pages and topics |
+| `assets/` | Website images |
 
-## Execução local
+## Local preview
 
-Para visualizar o site, abra `index.html` no navegador. Como alternativa, com Python 3 instalado, execute na raiz do repositório:
+Open `index.html` in a browser to preview the website. Alternatively, with Python 3 installed, run the following command from the repository root:
 
 ```sh
 python3 -m http.server 8000
 ```
 
-Acesse [localhost:8000](http://localhost:8000). Para encerrar o servidor, pressione `Ctrl+C` no terminal.
+Visit [localhost:8000](http://localhost:8000). Press `Ctrl+C` in the terminal to stop the server.
 
-## Manutenção
+## Maintenance
 
-Edite o conteúdo diretamente no arquivo HTML da página correspondente. Alterações no cabeçalho, na navegação ou no rodapé devem ser aplicadas a todas as páginas para manter a consistência do site.
+Edit content directly in the corresponding HTML file. Apply changes to the header, navigation, or footer consistently across all pages.
 
-Os estilos ficam centralizados em `style.css`, e os comportamentos compartilhados em `script.js`. Armazene novas imagens em `assets/` e inclua um texto alternativo descritivo no atributo `alt`.
+Shared styles are defined in `style.css`, and theme behavior is managed in `script.js`. Store new images in `assets/` and provide descriptive alternative text in the `alt` attribute.
 
-Para adicionar um projeto, inclua uma seção em `projetos.html` com título, descrição e links para o repositório ou outros materiais relevantes. Atualize o texto de apresentação da página conforme os projetos forem publicados.
+To add a project, create a section in `projects.html` with a title, a short description, and links to the application, repository, or other relevant resources.
 
-Para publicar notas ou apresentações, adicione o título, uma breve descrição e o link do material à página correspondente. Atualize também o índice `entries` em `search.js` para que os novos conteúdos apareçam na busca.
+To publish notes or presentations, add the title, a short description, and a link to the material on the corresponding page. Update the `entries` index in `search.js` so that new content appears in search results.
 
-Antes de publicar alterações, confira a navegação entre as páginas, os links, a exibição em telas menores e os dois temas.
+Before publishing changes, check page navigation, links, the layout on smaller screens, search results, and both themes.

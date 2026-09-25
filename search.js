@@ -1,14 +1,16 @@
 (() => {
-  // Mantenha este índice atualizado ao publicar páginas ou materiais.
+  // Update this index when publishing pages or materials.
   const entries = [
-    { title: 'Sobre mim', url: 'index.html', description: 'Mateus Jardim Benvenuti · Estatística e Ciência de Dados · UFSCar' },
-    { title: 'Pesquisa', url: 'pesquisa.html', description: 'Iniciação científica CNPq · Grafos genótipo-fenótipo, Florestas Aleatórias e seleção de estabilidade · Thiago Rodrigo Ramos' },
-    { title: 'Projetos', url: 'projetos.html', description: 'Aplicações e código' },
-    { title: 'Promoções para marketplaces', url: 'projetos.html#promocoes-title', description: 'Python, Streamlit, Pandas, OpenPyXL · Planilhas Excel e CSV, produtos, SKU e preços' },
-    { title: 'Notas de estudo', url: 'notas.html', description: 'Página de notas e materiais de estudo' },
-    { title: 'Apresentações', url: 'apresentacoes.html', description: 'Página de apresentações acadêmicas' },
-    { title: 'Trajetória', url: 'trajetoria.html', description: 'Graduação, PET Estatística e iniciação científica' },
-    { title: 'Contato', url: 'contato.html', description: 'E-mail e contato acadêmico' },
+    { title: 'About me', url: 'index.html', description: 'Mateus Jardim Benvenuti · Statistics and Data Science · UFSCar' },
+    { title: 'Research', url: 'research.html', description: 'CNPq undergraduate research · Genotype–phenotype graphs, Random Forests and stability selection · Thiago Rodrigo Ramos' },
+    { title: 'Projects', url: 'projects.html', description: 'Applications and code' },
+    { title: 'Marketplace Promotions', url: 'projects.html#promotions-title', description: 'Python, Streamlit, Pandas, OpenPyXL · Excel and CSV spreadsheets, products, SKU and prices' },
+    { title: 'Study Notes', url: 'notes.html', description: 'Notes and study materials' },
+    { title: 'Statistical Programming', url: 'notes.html#statistical-programming-title', description: 'Lecture notes · Course taught by Thiago Rodrigo Ramos' },
+    { title: 'Presentations', url: 'presentations.html', description: 'Academic presentations' },
+    { title: 'Introduction to pandas', url: 'presentations.html#pandas-title', description: 'pandas, NumPy and Matplotlib · PET Statistics at UFSCar' },
+    { title: 'Background', url: 'background.html', description: 'Undergraduate studies, PET Statistics and undergraduate research' },
+    { title: 'Contact', url: 'contact.html', description: 'Email and academic contact information' },
   ];
   const trigger = document.querySelector('.search-toggle');
   if (!trigger || typeof HTMLDialogElement === 'undefined') return;
@@ -19,11 +21,11 @@
   dialog.setAttribute('aria-labelledby', 'search-title');
   dialog.innerHTML = `
     <div class="search-heading">
-      <h2 id="search-title">Buscar no site</h2>
-      <button type="button">Fechar</button>
+      <h2 id="search-title">Search this site</h2>
+      <button type="button">Close</button>
     </div>
-    <label for="search-input">Página ou assunto</label>
-    <input id="search-input" type="search" autocomplete="off" placeholder="Ex.: grafos, projetos, PET">
+    <label for="search-input">Page or topic</label>
+    <input id="search-input" type="search" autocomplete="off" placeholder="e.g. graphs, projects, PET">
     <p class="search-status" role="status" aria-live="polite"></p>
     <ul class="search-results"></ul>`;
   document.body.append(dialog);
@@ -48,7 +50,7 @@
       item.append(link);
       results.append(item);
     }
-    status.textContent = matches.length ? `${matches.length} resultado${matches.length === 1 ? '' : 's'}.` : 'Nenhum resultado. Tente outro termo.';
+    status.textContent = matches.length ? `${matches.length} result${matches.length === 1 ? '' : 's'}.` : 'No results. Try another term.';
   }
   function open() {
     if (dialog.open) return;
