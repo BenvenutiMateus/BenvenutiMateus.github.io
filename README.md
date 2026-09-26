@@ -58,4 +58,4 @@ When changing page structure, edit `tools/build_site.py`; for presentation chang
 
 ## Content sources
 
-Education, experience, and skills are based on the CV in `assets/cv.pdf`. Project descriptions are based on the public repositories: [Marketplace Promotions](https://github.com/BenvenutiMateus/promocoes), [Genetica](https://github.com/BenvenutiMateus/Genetica), and [Mercado Livre Product Analysis](https://github.com/BenvenutiMateus/analises_ml).
+Education, experience, and skills are based on the CV in `assets/cv.pdf`. Project descriptions are based on the public repositories: [Marketplace Promotions](https://github.com/BenvenutiMateus/promocoes), [Genetica](https://github.com/BenvenutiMateus/Genetica), [Mercado Livre Product Analysis](https://github.com/BenvenutiMateus/analises_ml), and [Personal Finance Control](https://github.com/BenvenutiMateus/Controle-financeiro).

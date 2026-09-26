@@ -53,6 +53,11 @@ window.siteSearch = {
         "description": "Collect listing information, compare products, and estimate net proceeds using the application’s fee assumptions. · Python Streamlit BeautifulSoup ReportLab"
       },
       {
+        "title": "Personal Finance Control",
+        "url": "projects.html#personal",
+        "description": "Track income, expenses, and recurring bills with interactive dashboards and a Turso database. · Python Streamlit Pandas Plotly Turso"
+      },
+      {
         "title": "Genotype–Phenotype Graph Learning Using Random Forests and Stability Selection",
         "url": "research.html",
         "description": "CNPq · Random Forests · Variable importance · Stability selection · High-dimensional statistics · Graphical models"
@@ -134,6 +139,11 @@ window.siteSearch = {
         "title": "Análise de produtos do Mercado Livre",
         "url": "projects.html#marketplace-analysis",
         "description": "Reúne informações de anúncios, compara produtos e estima valores líquidos com as premissas de tarifas da aplicação. · Python Streamlit BeautifulSoup ReportLab"
+      },
+      {
+        "title": "Controle financeiro pessoal",
+        "url": "projects.html#personal",
+        "description": "Organiza receitas, despesas e contas recorrentes com painéis interativos e banco de dados Turso. · Python Streamlit Pandas Plotly Turso"
       },
       {
         "title": "Aprendizado de grafos genótipo-fenótipo via Floresta Aleatória e seleção de estabilidade",

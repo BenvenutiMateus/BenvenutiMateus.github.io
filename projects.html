@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,24 +14,148 @@
   <script src="search-data.js" defer></script>
   <script src="search.js" defer></script>
 </head>
+
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
-  <header class="top-bar"><nav aria-label="Main navigation">
-    <a href="index.html" >Home</a>
-<a href="research.html" >Research</a>
-<a href="projects.html" aria-current="page">Projects</a>
-<a href="notes.html" >Notes</a>
-<a href="presentations.html" >Presentations</a>
-<a href="background.html" >Background</a>
-<a href="contact.html" >Contact</a>
-    <button class="search-toggle" type="button" aria-haspopup="dialog" aria-controls="site-search" aria-keyshortcuts="Control+k Meta+k" aria-label="Search this site (Ctrl K / Cmd K)" title="Search this site (Ctrl K / Cmd K)" hidden><kbd>Ctrl K</kbd> <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
-    <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Dark mode" title="Toggle light or dark theme" hidden><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg></button>
-    <span class="language-switch" role="group" aria-label="Language"> <span aria-current="true" lang="en">EN</span> | <a href="pt/projects.html" lang="pt-BR" hreflang="pt-BR">PT</a></span>
-  </nav></header>
+  <header class="top-bar">
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html" aria-current="page">Projects</a>
+      <a href="notes.html">Notes</a>
+      <a href="presentations.html">Presentations</a>
+      <a href="background.html">Background</a>
+      <a href="contact.html">Contact</a>
+      <button class="search-toggle" type="button" aria-haspopup="dialog" aria-controls="site-search"
+        aria-keyshortcuts="Control+k Meta+k" aria-label="Search this site (Ctrl K / Cmd K)"
+        title="Search this site (Ctrl K / Cmd K)" hidden><kbd>Ctrl K</kbd> <svg viewBox="0 0 24 24" width="18"
+          height="18" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <circle cx="10.5" cy="10.5" r="6.5" />
+          <path d="m16 16 5 5" />
+        </svg></button>
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Dark mode"
+        title="Toggle light or dark theme" hidden><svg viewBox="0 0 24 24" width="18" height="18" fill="none"
+          stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+          <circle cx="12" cy="12" r="4" />
+          <path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5" />
+        </svg></button>
+      <span class="language-switch" role="group" aria-label="Language"> <span aria-current="true" lang="en">EN</span> |
+        <a href="pt/projects.html" lang="pt-BR" hreflang="pt-BR">PT</a></span>
+    </nav>
+  </header>
   <div class="site">
-    <header class="site-header"><a class="site-name" href="index.html">Mateus Jardim Benvenuti</a><p class="affiliation">Statistics and Data Science · UFSCar</p></header>
-    <main id="content"><h1>Projects</h1><p>Selected work in data automation, applied analysis, and statistical research.</p><div class="work-grid"><article class="work-card" id="promotions"><img src="assets/projects/promotions.svg" alt="Workflow illustration: Marketplace Promotions" width="600" height="240" loading="lazy"><div class="work-copy"><p class="detail">Data automation</p><h2>Marketplace Promotions</h2><p>Match product spreadsheets to price lists and export promotion-ready prices for each marketplace.</p><ul class="tag-list"><li>Python</li><li>Pandas</li><li>Streamlit</li><li>OpenPyXL</li></ul><details><summary>Project details</summary><ul><li>Import Excel or CSV files and identify SKU / ID columns.</li><li>Inspect matched and unmatched products before exporting.</li><li>Handle invalid formula values and export only identifiers and final prices.</li></ul></details><div class="work-actions"><a href="https://promoswebvend.streamlit.app/" class="work-link" >View project</a><a href="https://github.com/BenvenutiMateus/promocoes" class="work-link" >GitHub</a></div></div></article><article class="work-card" id="graph-learning"><img src="assets/projects/graph-learning.svg" alt="Workflow illustration: Random Forests &amp; Graph Learning" width="600" height="240" loading="lazy"><div class="work-copy"><p class="detail">Undergraduate research · In progress</p><h2>Random Forests &amp; Graph Learning</h2><p>Research code for genomic data analysis, variable importance, and stability-based graph learning.</p><ul class="tag-list"><li>Python</li><li>scikit-learn</li><li>NumPy</li><li>NetworkX</li></ul><details><summary>Project details</summary><ul><li>Integrate genetic markers and phenotypic variables for statistical analysis.</li><li>Study Random Forest importance through repeated sampling and stability assessment.</li><li>Build graph representations of dependencies; raw genomic data are not included in the repository.</li></ul></details><div class="work-actions"><a href="research.html" class="work-link" >View project</a><a href="https://github.com/BenvenutiMateus/Genetica" class="work-link" >GitHub</a></div></div></article><article class="work-card" id="marketplace-analysis"><img src="assets/projects/marketplace-analysis.svg" alt="Workflow illustration: Mercado Livre Product Analysis" width="600" height="240" loading="lazy"><div class="work-copy"><p class="detail">Applied data analysis</p><h2>Mercado Livre Product Analysis</h2><p>Collect listing information, compare products, and estimate net proceeds using the application’s fee assumptions.</p><ul class="tag-list"><li>Python</li><li>Streamlit</li><li>BeautifulSoup</li><li>ReportLab</li></ul><details><summary>Project details</summary><ul><li>Extract product titles and prices from Mercado Livre listings.</li><li>Combine product information with user-supplied tax and commission rates.</li><li>Organize multiple products and export an analysis report as a PDF.</li></ul></details><div class="work-actions"><a href="https://github.com/BenvenutiMateus/analises_ml#readme" class="work-link" >View project</a><a href="https://github.com/BenvenutiMateus/analises_ml" class="work-link" >GitHub</a></div></div></article></div></main>
+    <header class="site-header"><a class="site-name" href="index.html">Mateus Jardim Benvenuti</a>
+      <p class="affiliation">Statistics and Data Science · UFSCar</p>
+    </header>
+    <main id="content">
+      <h1>Projects</h1>
+      <p>Selected work in data automation, applied analysis, and statistical research.</p>
+      <div class="work-grid">
+        <article class="work-card" id="promotions"><img src="assets/projects/promotions.svg"
+            alt="Workflow illustration: Marketplace Promotions" width="600" height="240" loading="lazy">
+          <div class="work-copy">
+            <p class="detail">Data automation</p>
+            <h2>Marketplace Promotions</h2>
+            <p>Match product spreadsheets to price lists and export promotion-ready prices for each marketplace.</p>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>Streamlit</li>
+              <li>OpenPyXL</li>
+            </ul>
+            <details>
+              <summary>Project details</summary>
+              <ul>
+                <li>Import Excel or CSV files and identify SKU / ID columns.</li>
+                <li>Inspect matched and unmatched products before exporting.</li>
+                <li>Handle invalid formula values and export only identifiers and final prices.</li>
+              </ul>
+            </details>
+            <div class="work-actions"><a href="https://promoswebvend.streamlit.app/" class="work-link">View
+                project</a><a href="https://github.com/BenvenutiMateus/promocoes" class="work-link">GitHub</a></div>
+          </div>
+        </article>
+        <article class="work-card" id="graph-learning"><img src="assets/projects/graph-learning.svg"
+            alt="Workflow illustration: Random Forests &amp; Graph Learning" width="600" height="240" loading="lazy">
+          <div class="work-copy">
+            <p class="detail">Undergraduate research · In progress</p>
+            <h2>Random Forests &amp; Graph Learning</h2>
+            <p>Research code for genomic data analysis, variable importance, and stability-based graph learning.</p>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>scikit-learn</li>
+              <li>NumPy</li>
+              <li>NetworkX</li>
+            </ul>
+            <details>
+              <summary>Project details</summary>
+              <ul>
+                <li>Integrate genetic markers and phenotypic variables for statistical analysis.</li>
+                <li>Study Random Forest importance through repeated sampling and stability assessment.</li>
+                <li>Build graph representations of dependencies; raw genomic data are not included in the repository.
+                </li>
+              </ul>
+            </details>
+            <div class="work-actions"><a href="research.html" class="work-link">View project</a><a
+                href="https://github.com/BenvenutiMateus/Genetica" class="work-link">GitHub</a></div>
+          </div>
+        </article>
+        <article class="work-card" id="marketplace-analysis"><img src="assets/projects/marketplace-analysis.svg"
+            alt="Workflow illustration: Mercado Livre Product Analysis" width="600" height="240" loading="lazy">
+          <div class="work-copy">
+            <p class="detail">Applied data analysis</p>
+            <h2>Mercado Livre Product Analysis</h2>
+            <p>Collect listing information, compare products, and estimate net proceeds using the application’s fee
+              assumptions.</p>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Streamlit</li>
+              <li>BeautifulSoup</li>
+              <li>ReportLab</li>
+            </ul>
+            <details>
+              <summary>Project details</summary>
+              <ul>
+                <li>Extract product titles and prices from Mercado Livre listings.</li>
+                <li>Combine product information with user-supplied tax and commission rates.</li>
+                <li>Organize multiple products and export an analysis report as a PDF.</li>
+              </ul>
+            </details>
+            <div class="work-actions"><a href="https://github.com/BenvenutiMateus/analises_ml#readme"
+                class="work-link">View project</a><a href="https://github.com/BenvenutiMateus/analises_ml"
+                class="work-link">GitHub</a></div>
+          </div>
+        </article>
+        <article class="work-card" id="personal"><img src="assets/projects/personal-finance.svg"
+            alt="Workflow illustration: Personal Finance Control" width="600" height="240" loading="lazy">
+          <div class="work-copy">
+            <p class="detail">Personal finance</p>
+            <h2>Personal Finance Control</h2>
+            <p>Track income, expenses, and recurring bills with interactive dashboards and a Turso database.</p>
+            <ul class="tag-list">
+              <li>Python</li>
+              <li>Streamlit</li>
+              <li>Pandas</li>
+              <li>Plotly</li>
+              <li>Turso</li>
+            </ul>
+            <details>
+              <summary>Project details</summary>
+              <ul>
+                <li>Record and edit income and expenses by category and payment status.</li>
+                <li>Explore monthly summaries, spending distributions, and historical trends with Plotly charts.</li>
+                <li>Project future recurring bills and manage personal tasks and routines.</li>
+              </ul>
+            </details>
+            <div class="work-actions"><a href="https://github.com/BenvenutiMateus/Controle-financeiro#readme"
+                class="work-link">View project</a><a href="https://github.com/BenvenutiMateus/Controle-financeiro"
+                class="work-link">GitHub</a></div>
+          </div>
+        </article>
+      </div>
+    </main>
     <footer>© <span id="year">2026</span> Mateus Jardim Benvenuti</footer>
   </div>
 </body>
+
 </html>
