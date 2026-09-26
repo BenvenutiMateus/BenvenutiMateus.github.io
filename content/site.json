@@ -13,7 +13,7 @@
     {
       "id": "promotions",
       "repo": "promocoes",
-      "image": "promotions.svg",
+      "image": "promotions.png",
       "tech": [
         "Python",
         "Pandas",
@@ -109,7 +109,7 @@
     {
       "id": "personal",
       "repo": "Controle-financeiro",
-      "image": "personal-finance.svg",
+      "image": "personal-finance.png",
       "tech": [
         "Python",
         "Streamlit",
