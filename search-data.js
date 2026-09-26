@@ -74,7 +74,7 @@ window.siteSearch = {
       },
       {
         "title": "View CV (PDF)",
-        "url": "assets/cv.pdf",
+        "url": "assets/cv_en_mateus_benvenuti.pdf",
         "description": "CV in English · PDF"
       }
     ],
@@ -162,8 +162,8 @@ window.siteSearch = {
       },
       {
         "title": "Ver CV (PDF)",
-        "url": "../assets/cv.pdf",
-        "description": "CV em inglês · PDF"
+        "url": "../assets/cv_pt_mateus_benvenuti.pdf",
+        "description": "CV em português · PDF"
       }
     ],
     "ui": {

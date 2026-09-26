@@ -27,7 +27,8 @@ Personal academic website for my Statistics and Data Science studies at the Fede
 | `style.css` | Shared styles and themes |
 | `script.js` | Theme preference and footer year |
 | `search.js`, `search-data.js` | Search interface and generated bilingual index |
-| `assets/cv.pdf` | Current CV in English |
+| `assets/cv_en_mateus_benvenuti.pdf` | Current CV in English |
+| `assets/cv_pt_mateus_benvenuti.pdf` | Current CV in Portuguese |
 | `assets/projects/` | SVG workflow illustrations for project cards |
 
 ## Local preview
@@ -52,10 +53,10 @@ The generator uses only the Python standard library. Commit both the source cont
 
 Each project has shared repository, technology, image, and destination fields, plus an `en` and a `pt` content block. Keep descriptions factual, distinguish ongoing research from completed applications, and link to public evidence. The cards use workflow illustrations, not screenshots or measured research results.
 
-Replace `assets/cv.pdf` to update the CV. The same file is linked from both language versions and is labeled as English. Profile links are maintained in the `profile` section. The optional `lattes` and `orcid` fields are omitted from the interface until their URLs are provided.
+Replace `assets/cv_en_mateus_benvenuti.pdf` or `assets/cv_pt_mateus_benvenuti.pdf` to update the corresponding CV. Each language version links to its own PDF, configured in `profile.cv` in `content/site.json`. Profile links are maintained in the `profile` section. The optional `lattes` and `orcid` fields are omitted from the interface until their URLs are provided.
 
 When changing page structure, edit `tools/build_site.py`; for presentation changes, edit `style.css`. After regeneration, check navigation and search in both languages, local links and anchors, the CV download, and the layout on mobile and desktop in both themes.
 
 ## Content sources
 
-Education, experience, and skills are based on the CV in `assets/cv.pdf`. Project descriptions are based on the public repositories: [Marketplace Promotions](https://github.com/BenvenutiMateus/promocoes), [Genetica](https://github.com/BenvenutiMateus/Genetica), [Mercado Livre Product Analysis](https://github.com/BenvenutiMateus/analises_ml), and [Personal Finance Control](https://github.com/BenvenutiMateus/Controle-financeiro).
+Education, experience, and skills are based on the CVs in `assets/cv_en_mateus_benvenuti.pdf` and `assets/cv_pt_mateus_benvenuti.pdf`. Project descriptions are based on the public repositories: [Marketplace Promotions](https://github.com/BenvenutiMateus/promocoes), [Genetica](https://github.com/BenvenutiMateus/Genetica), [Mercado Livre Product Analysis](https://github.com/BenvenutiMateus/analises_ml), and [Personal Finance Control](https://github.com/BenvenutiMateus/Controle-financeiro).

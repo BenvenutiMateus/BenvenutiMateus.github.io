@@ -7,7 +7,10 @@
     "instagram": "https://www.instagram.com/mateusbenvenuti/",
     "lattes": "",
     "orcid": "",
-    "cv": "assets/cv.pdf"
+    "cv": {
+      "en": "assets/cv_en_mateus_benvenuti.pdf",
+      "pt": "assets/cv_pt_mateus_benvenuti.pdf"
+    }
   },
   "projects": [
     {
@@ -312,7 +315,7 @@
     "portrait": "Foto de Mateus Jardim Benvenuti",
     "download": "Baixar CV",
     "view_cv": "Ver CV (PDF)",
-    "cv_note": "CV em inglês · PDF",
+    "cv_note": "CV em português · PDF",
     "view_research": "Conheça minha pesquisa",
     "view_project": "Ver projeto",
     "details": "Detalhes do projeto",
