@@ -219,7 +219,7 @@
           "2026–present",
           "CNPq Undergraduate Research Fellow",
           "Federal University of São Carlos (UFSCar)",
-          "Genotype–phenotype graph learning with Random Forests, variable importance, and stability selection."
+          "Research on genotype–phenotype graph learning with high-dimensional data, Random Forests, and stability selection, supervised by Prof. Thiago Ramos. Implementation of experiments with repeated subsampling, variable importance, feature selection, and graph construction in Python using Pandas, NumPy, scikit-learn, and NetworkX."
         ],
         [
           "2026–present",
@@ -228,16 +228,28 @@
           "Teaching, research, and outreach activities, with contributions to external communication and partnerships."
         ],
         [
+          "Jul. 2025–Jun. 2026",
+          "E-commerce Manager",
+          "Brás &amp; Cia Comércio de Roupas e Acessórios LTDA",
+          "Managed e-commerce operations, monitored products and sales, and supported the organization and execution of commercial and operational routines for the online sales channel."
+        ],
+        [
           "2025–Dec. 2028 (expected)",
           "B.Sc. in Statistics and Data Science",
           "Federal University of São Carlos (UFSCar)",
-          "Undergraduate studies in São Carlos, Brazil."
+          "Undergraduate studies in São Carlos, Brazil. Weighted average: 7.72/10."
         ],
         [
           "2024–2025",
           "Science and Technology studies",
           "Federal University of ABC (UFABC)",
-          "Undergraduate coursework; degree not completed."
+          "Undergraduate coursework in Santo André, Brazil; degree not completed."
+        ],
+        [
+          "2017–2020",
+          "INSABOTS · Robotics Team",
+          "Extracurricular activity",
+          "Participated in robotics projects and competitions, including FIRST LEGO League (FLL) and the Brazilian Robotics Olympiad (OBR)."
         ]
       ],
       "skills": "Skills",
@@ -251,9 +263,16 @@
         "NumPy",
         "scikit-learn",
         "Matplotlib",
+        "Plotly",
         "NetworkX",
         "Streamlit",
+        "Power BI",
+        "Excel",
+        "SQLite",
         "Git",
+        "GitHub",
+        "Jupyter Notebook",
+        "Linux",
         "LaTeX"
       ],
       "skill_stats": [
@@ -262,7 +281,9 @@
         "Exploratory data analysis",
         "Random Forests",
         "Variable importance",
-        "Graphical models"
+        "Stability selection",
+        "Feature selection",
+        "Graph learning"
       ],
       "languages": "Languages",
       "language_text": "Portuguese: native · English: advanced"
@@ -371,7 +392,7 @@
           "2026–atual",
           "Iniciação científica · Bolsista CNPq",
           "Universidade Federal de São Carlos (UFSCar)",
-          "Aprendizado de grafos genótipo-fenótipo com Florestas Aleatórias, importância de variáveis e seleção de estabilidade."
+          "Pesquisa em aprendizado de grafos genótipo–fenótipo com dados de alta dimensionalidade, Florestas Aleatórias e seleção por estabilidade, sob orientação do Prof. Dr. Thiago Ramos. Implementação de experimentos com subamostragem repetida, importância de variáveis, seleção de atributos e construção de grafos em Python, utilizando Pandas, NumPy, scikit-learn e NetworkX."
         ],
         [
           "2026–atual",
@@ -380,16 +401,28 @@
           "Atividades de ensino, pesquisa e extensão, com participação na comunicação externa e em parcerias."
         ],
         [
+          "jul. 2025–jun. 2026",
+          "Gerente de E-commerce",
+          "Brás &amp; Cia Comércio de Roupas e Acessórios LTDA",
+          "Gestão da operação de e-commerce, acompanhamento de produtos e vendas e apoio à organização e execução das rotinas comerciais e operacionais do canal de vendas online."
+        ],
+        [
           "2025–dez. 2028 (previsão)",
           "Bacharelado em Estatística e Ciência de Dados",
           "Universidade Federal de São Carlos (UFSCar)",
-          "Graduação em São Carlos, Brasil."
+          "Graduação em São Carlos, SP. Média ponderada: 7,72/10."
         ],
         [
           "2024–2025",
           "Estudos em Ciência e Tecnologia",
           "Universidade Federal do ABC (UFABC)",
-          "Graduação não concluída."
+          "Graduação não concluída em Santo André, SP."
+        ],
+        [
+          "2017–2020",
+          "INSABOTS · Equipe de Robótica",
+          "Atividade extracurricular",
+          "Participação em projetos e competições de robótica, incluindo FIRST LEGO League (FLL) e Olimpíada Brasileira de Robótica (OBR)."
         ]
       ],
       "skills": "Competências",
@@ -403,9 +436,16 @@
         "NumPy",
         "scikit-learn",
         "Matplotlib",
+        "Plotly",
         "NetworkX",
         "Streamlit",
+        "Power BI",
+        "Excel",
+        "SQLite",
         "Git",
+        "GitHub",
+        "Jupyter Notebook",
+        "Linux",
         "LaTeX"
       ],
       "skill_stats": [
@@ -414,7 +454,9 @@
         "Análise exploratória de dados",
         "Florestas Aleatórias",
         "Importância de variáveis",
-        "Modelos gráficos"
+        "Seleção por estabilidade",
+        "Seleção de atributos",
+        "Aprendizado de grafos"
       ],
       "languages": "Idiomas",
       "language_text": "Português: nativo · Inglês: avançado"
