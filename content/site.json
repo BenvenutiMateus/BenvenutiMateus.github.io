@@ -300,12 +300,24 @@
       "link": "View notes on GitHub",
       "language": "Materials in Portuguese"
     },
-    "presentations": {
-      "title": "Introduction to pandas",
-      "description": "An introduction to pandas, NumPy, and Matplotlib, developed and taught by the PET Statistics group at UFSCar.",
-      "link": "View workshop materials",
-      "language": "Materials in Portuguese"
-    },
+    "presentations": [
+      {
+        "title": "Introduction to pandas",
+        "description": "An introduction to pandas, NumPy, and Matplotlib, developed and taught by the PET Statistics group at UFSCar.",
+        "link": "View workshop materials",
+        "language": "Materials in Portuguese",
+        "id": "pandas-title",
+        "url": "https://github.com/BenvenutiMateus/minicurso_pandas"
+      },
+      {
+        "title": "Introduction to SQL",
+        "description": "Introductory SQL materials from the PET Statistics group at UFSCar.",
+        "link": "View workshop materials",
+        "language": "Materials in Portuguese",
+        "id": "sql-title",
+        "url": "https://github.com/PET-Estat-UFSCar/minicurso-SQL"
+      }
+    ],
     "projects_intro": "Selected work in data automation, applied analysis, and statistical research.",
     "search_ui": {
       "close": "Close",
@@ -473,12 +485,24 @@
       "link": "Ver notas no GitHub",
       "language": "Material em português"
     },
-    "presentations": {
-      "title": "Introdução ao pandas",
-      "description": "Introdução às bibliotecas pandas, NumPy e Matplotlib, desenvolvida e ministrada pelo PET Estatística da UFSCar.",
-      "link": "Ver material do minicurso",
-      "language": "Material em português"
-    },
+    "presentations": [
+      {
+        "title": "Introdução ao pandas",
+        "description": "Introdução às bibliotecas pandas, NumPy e Matplotlib, desenvolvida e ministrada pelo PET Estatística da UFSCar.",
+        "link": "Ver material do minicurso",
+        "language": "Material em português",
+        "id": "pandas-title",
+        "url": "https://github.com/BenvenutiMateus/minicurso_pandas"
+      },
+      {
+        "title": "Introdução ao SQL",
+        "description": "Material introdutório de SQL do PET Estatística da UFSCar.",
+        "link": "Ver material do minicurso",
+        "language": "Material em português",
+        "id": "sql-title",
+        "url": "https://github.com/PET-Estat-UFSCar/minicurso-SQL"
+      }
+    ],
     "projects_intro": "Trabalhos selecionados em automação de dados, análise aplicada e pesquisa estatística.",
     "search_ui": {
       "close": "Fechar",
