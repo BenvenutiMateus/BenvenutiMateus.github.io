@@ -68,14 +68,19 @@ window.siteSearch = {
         "description": "Thiago Rodrigo Ramos"
       },
       {
-        "title": "Introduction to pandas",
-        "url": "presentations.html#pandas-title",
-        "description": "PET · pandas · NumPy · Matplotlib"
-      },
-      {
         "title": "View CV (PDF)",
         "url": "assets/cv_en_mateus_benvenuti.pdf",
         "description": "CV in English · PDF"
+      },
+      {
+        "title": "Introduction to pandas",
+        "url": "presentations.html#pandas-title",
+        "description": "An introduction to pandas, NumPy, and Matplotlib, developed and taught by the PET Statistics group at UFSCar."
+      },
+      {
+        "title": "Introduction to SQL",
+        "url": "presentations.html#sql-title",
+        "description": "Introductory SQL materials from the PET Statistics group at UFSCar."
       }
     ],
     "ui": {
@@ -156,14 +161,19 @@ window.siteSearch = {
         "description": "Thiago Rodrigo Ramos"
       },
       {
-        "title": "Introdução ao pandas",
-        "url": "presentations.html#pandas-title",
-        "description": "PET · pandas · NumPy · Matplotlib"
-      },
-      {
         "title": "Ver CV (PDF)",
         "url": "../assets/cv_pt_mateus_benvenuti.pdf",
         "description": "CV em português · PDF"
+      },
+      {
+        "title": "Introdução ao pandas",
+        "url": "presentations.html#pandas-title",
+        "description": "Introdução às bibliotecas pandas, NumPy e Matplotlib, desenvolvida e ministrada pelo PET Estatística da UFSCar."
+      },
+      {
+        "title": "Introdução ao SQL",
+        "url": "presentations.html#sql-title",
+        "description": "Material introdutório de SQL do PET Estatística da UFSCar."
       }
     ],
     "ui": {
