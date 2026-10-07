@@ -67,7 +67,7 @@ def body(page,lang,prefix):
     if page=='research':
         r=u['research']
         sections=''.join(f'<section class="research-step"><h3>{title}</h3><p>{text}</p></section>' for title,text in r['stages'])
-        return f'<article class="text-page"><h1>{u["nav"][page]}</h1><p class="role-line">{r["current"]}</p><h2>{u["research_title"]}</h2><p class="detail">{r["status"]}</p><p>{r["supervisor"]}: <a href="https://thiagorr162.github.io/">Prof. Thiago Rodrigo Ramos</a> · UFSCar</p><div class="research-steps">{sections}</div>{link(PROFILE["github"]+"/Genetica",r["repository"],"social-button")}{tags(r["topics"])}</article>'
+        return f'<article class="text-page"><h1>{u["nav"][page]}</h1><p class="role-line">{r["current"]}</p><h2>{u["research_title"]}</h2><p class="detail">{r["status"]}</p><p>{r["supervisor"]}: <a href="https://thiagorr162.github.io/">Prof. Thiago Rodrigo Ramos</a> · UFSCar</p><div class="research-steps">{sections}</div>{link(PROFILE["github"]+"/genetics",r["repository"],"social-button")}{tags(r["topics"])}</article>'
     if page=='background':
         b=u['background']
         timeline=''.join(f'<li><p class="detail">{date}</p><h3>{title}</h3><p>{institution}</p><p>{desc}</p></li>' for date,title,institution,desc in b['timeline'])

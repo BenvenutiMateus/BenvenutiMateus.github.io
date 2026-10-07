@@ -47,7 +47,7 @@
     },
     {
       "id": "graph-learning",
-      "repo": "Genetica",
+      "repo": "genetics",
       "image": "graph-learning.svg",
       "tech": [
         "Python",
