@@ -179,6 +179,11 @@ window.siteSearch = {
         "title": "Introdução ao SQL",
         "url": "presentations.html#sql-title",
         "description": "Material introdutório de SQL do PET Estatística da UFSCar."
+      },
+      {
+        "title": "Introdução ao Power BI",
+        "url": "presentations.html#power-bi-title",
+        "description": "Material introdutório de Power BI do PET Estatística da UFSCar."
       }
     ],
     "ui": {
