@@ -81,6 +81,11 @@ window.siteSearch = {
         "title": "Introduction to SQL",
         "url": "presentations.html#sql-title",
         "description": "Introductory SQL materials from the PET Statistics group at UFSCar."
+      },
+      {
+        "title": "Introduction to Power BI",
+        "url": "presentations.html#power-bi-title",
+        "description": "Introductory Power BI materials from the PET Statistics group at UFSCar."
       }
     ],
     "ui": {

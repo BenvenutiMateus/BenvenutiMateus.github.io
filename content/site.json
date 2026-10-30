@@ -501,6 +501,14 @@
         "language": "Material em português",
         "id": "sql-title",
         "url": "https://github.com/PET-Estat-UFSCar/minicurso-SQL"
+      },
+      {
+        "title": "Introdução ao Power BI",
+        "description": "Material introdutório de Power BI do PET Estatística da UFSCar.",
+        "link": "Ver material do minicurso",
+        "language": "Material em português",
+        "id": "power-bi-title",
+        "url": "https://github.com/PET-Estat-UFSCar/Minicurso-Power-BI"
       }
     ],
     "projects_intro": "Trabalhos selecionados em automação de dados, análise aplicada e pesquisa estatística.",
